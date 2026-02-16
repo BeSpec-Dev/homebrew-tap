@@ -2,7 +2,7 @@ cask "bespec" do
   arch arm: "silicon", intel: "intel"
 
   # The exact string of your release tag (without the 'v')
-  version "1.6.3-rc1"
+  version "1.6.3"
   
   # PASTE YOUR LINUX HASHES HERE
   if Hardware::CPU.intel?
