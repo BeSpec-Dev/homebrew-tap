@@ -6,9 +6,9 @@ cask "bespec" do
   
   # PASTE YOUR LINUX HASHES HERE
   if Hardware::CPU.intel?
-    sha256 "d10a49d4deaed59de47fda8d54b3d2e42ec9b029dd71f60251c6db0e2fa13ad4"
+    sha256 "2b29ef608b1c91659ec54d3ed4143e0e11b5e70042139cb1c214fb5a55f6e9d5"
   else
-    sha256 "6f1ccbc67c0b4f69f50d6687b7f4b12322006b9baf2b503aa69708b3b44ba54e"
+    sha256 "e3fcd34e2e3b497e5cf5ece0c9e33b0b9e2726608cb58c82f98cb3c191c7ecc9"
   end
 
   # This URL builder assumes your GitHub release artifacts follow the pattern:
