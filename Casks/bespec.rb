@@ -2,13 +2,13 @@ cask "bespec" do
   arch arm: "silicon", intel: "intel"
 
   # The exact string of your release tag (without the 'v')
-  version "1.7.0"
+  version "1.8.0"
   
-  # PASTE YOUR LINUX HASHES HERE
+  # PASTE YOUR MAC HASHES HERE
   if Hardware::CPU.intel?
-    sha256 "a3ed60f3f1274c83fa15ab88cc4e4f06ef255d646fdc22a4677ce4dc835e267e"
+    sha256 "9ceae250da0d6fdf5fe773343bd415e06dd26dec8b685d9aa54a209ba5ff02b2"
   else
-    sha256 "6e5b074c80d803d5752c4a257fc9e8f2d4cd55c10dc06c46003555540ec8c98c"
+    sha256 "29fe0d289c9acbafe72a1e958ef893cdc50e826c054cb3e1b99222f5559c9f2e"
   end
 
   # This URL builder assumes your GitHub release artifacts follow the pattern:
